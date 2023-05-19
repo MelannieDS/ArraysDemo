@@ -6,8 +6,19 @@ public class Student {
     
     //comment added at 1:21 PM
     //adding new comment at 1:29PM
+    
+    
     private String sID;
     private String sName;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public Student(String sID, String sName) {
         this.sID = sID;
